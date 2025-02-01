@@ -15,7 +15,7 @@ picam2.start()
 
 
 # ✅ Set up Google API Key
-os.environ["GOOGLE_API_KEY"] = "AIzaSyB9-HO_48pUNmXEXlao6EG76dPWx6t2J6k"
+os.environ["GOOGLE_API_KEY"] = ""
 
 # ✅ Initialize the Gemini model
 model = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
